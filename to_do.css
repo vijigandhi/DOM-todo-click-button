@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+}
+
+.container
+{
+    width: 50%;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 15%;
+    box-shadow: 2px 1px 3px 5px #dddcdc;
+    
+}
+
+.innercontainer
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#clear,
+#text
+{
+    text-align: center;
+}
+
+.todo-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#input
+{
+  position: relative;
+  left: 20px;
+}
+
+#btn
+{
+    position: relative;
+    left: 20px;
+}
+
+.todo-list> div
+{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.todo-list> h4
+{
+    cursor: pointer;
+}
+
+div li
+{
+    list-style: none;
+    padding-left: 30%;
+}
+
+div> button
+{
+    position: relative;
+    right: 34%;
+}
+

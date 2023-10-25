@@ -1,0 +1,38 @@
+body{
+    width: 90%;
+   
+}
+
+.buttons{
+    width: 30%;
+    margin: 0,auto;
+    box-shadow: 2px 1px 3px 5px #d5d5d5;
+    margin-top: 18%;
+    padding-left: 10%;
+    position: relative;
+    left: 32%;
+    height: 248px;
+}
+
+.buttons> #clickbtn1,
+#clickbtn2,
+#clickbtn3
+{
+    margin-top: 20%;
+    border: 0px;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+}
+
+.buttons> p{
+    font-weight: bold;
+    background-color: orange;
+    width: 50%;
+    position: relative;
+    top: 52px;
+    left: 25px;
+}
