@@ -10,9 +10,9 @@ if(input.value==" "){
 else
 {
  let value=document.createElement("div")
-    value.setAttribute
+  
     let list = document.createElement("li")
-    list.setAttribute
+    
     list.innerText = input.value;
    
     let delbtn = document.createElement("button")
