@@ -1,31 +1,58 @@
 
 "use strict"
+//------------------------using this keyword-------------------------------------
 
-let btn=document.querySelectorAll(".btn");
+// let btn=document.querySelectorAll(".btn");
 
-for(var i=0;i<btn.length;i++)
-{
-    btn[i].addEventListener("click", function(){
-        change(this)
-    });   
+// for(var i=0;i<btn.length;i++)
+// {
+//     btn[i].addEventListener("click", function(){
+//         change(this)
+//     });   
    
-}
-console.log(btn)
-function change(btnNew)
-{
-    if(btnNew.innerHTML=="Click me")
-    {
-        btnNew.innerHTML="clicked"
-        btnNew.style.background="red"
+// }
+// console.log(btn)
+// function change(btnNew)
+// {
+//     if(btnNew.innerHTML=="Click me")
+//     {
+//         btnNew.innerHTML="clicked"
+//         btnNew.style.background="red"
+//     }
+//     else
+//     {
+//         btnNew.innerHTML="Click me"
+//         btnNew.style.background="green"
+//     }
+// }
+
+//-----------------------------using loop---------------------------------
+
+let btn = document.querySelectorAll(".btn");
+
+for (let i = 0; i < btn.length; i++) {
+  let a = 0;
+  console.log("loop",i)
+  btn[i].addEventListener("click", function () {
+    console.log("start ",a)
+    if (a == 0) {
+      btn[i].style.backgroundColor = "red";
+      btn[i].innerHTML = "clicked";
+      btn[i].style.color = "white";
+      
+      a = 1;
+    } else {
+      btn[i].style.backgroundColor = "green";
+      btn[i].innerText = "Click me";
+      btn[i].style.color = "white";
+      a = 0;
     }
-    else
-    {
-        btnNew.innerHTML="Click me"
-        btnNew.style.background="green"
-    }
+
+    console.log("end ",a)
+  });
 }
 
-
+//-------------------------------------------------------------------
 
 // let button1=document.getElementById("clickbtn1")
 // button1.style.color="white"

@@ -48,6 +48,8 @@ body{
     margin-top: 15px;
     gap: 10px;
     justify-content: space-between;
+    position: relative;
+    right: 15%;
 }
 
 .todo-list> h4
@@ -59,11 +61,27 @@ div li
 {
     list-style: none;
     padding-left: 30%;
+    width: 30%;
 }
 
 div> button
 {
     position: relative;
-    right: 34%;
+    right: 20%;
 }
 
+div> #editbtn
+{
+    position: relative;
+    right: 10%;
+}
+
+div> .todo-list
+{
+    width: 600px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+}
