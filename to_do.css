@@ -78,10 +78,10 @@ div> #editbtn
 
 div> .todo-list
 {
-    width: 600px;
+    /* width: 600px;
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: center;
-    padding: 20px;
+    padding: 20px; */
 }
